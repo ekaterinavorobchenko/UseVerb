@@ -1,0 +1,1 @@
+{"uuid":"c06a361b-e20a-413d-ad27-843bc5a092a2","name":"Test.LoginPageAndroid","children":["39e9a662-6caf-4bba-b69e-787e4394dc4f"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1619696665563,"stop":1619696691160}],"afters":[],"links":[],"start":1619696665514,"stop":1619696694614}
