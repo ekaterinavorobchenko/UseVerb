@@ -21,9 +21,9 @@ public class BaseAndroid {
     public static AppiumDriver driver;
 
     public String platformName = "Android";
-    public String platformVersion = "6.0.1";
-    public String deviceName = "BH90LETH1L";
-    public String app = "/Users/ekaterinavolobchenko/Downloads/UseVerb_test.apk";
+    public String platformVersion = "11.0";
+    public String deviceName = "emulator-5554";
+    public String app = "/Users/ekaterinavolobchenko/Downloads/UseVerb_release.apk";
     public String automationName = AutomationName.ANDROID_UIAUTOMATOR2;
     public String url = "http://127.0.0.1:4723/wd/hub";
     public Boolean noReset = true;
