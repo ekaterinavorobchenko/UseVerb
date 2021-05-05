@@ -1,0 +1,98 @@
+{
+  "uid" : "3b04cb2590e939c7",
+  "name" : "Test1",
+  "fullName" : "Test.LoginPageAndroid.Test1",
+  "historyId" : "d240552f16cd24cc5f614e2c924fbc6",
+  "time" : {
+    "start" : 1620136209953,
+    "stop" : 1620136214032,
+    "duration" : 4079
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1620136117716,
+      "stop" : 1620136204909,
+      "duration" : 87193
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1620136214052,
+      "stop" : 1620136217872,
+      "duration" : 3820
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Test.LoginPageAndroid"
+  }, {
+    "name" : "testClass",
+    "value" : "Test.LoginPageAndroid"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Android"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test.LoginPageAndroid"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Jenia-4.local"
+  }, {
+    "name" : "thread",
+    "value" : "16132@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "platform",
+    "value" : "android"
+  }, {
+    "name" : "runAs",
+    "value" : "grid"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b04cb2590e939c7.json",
+  "parameterValues" : [ "android", "grid" ]
+}

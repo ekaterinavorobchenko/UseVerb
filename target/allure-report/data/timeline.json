@@ -1,0 +1,607 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacBook-Pro-Jenia-4.local",
+    "children" : [ {
+      "name" : "13101@MacBook-Pro-Jenia-4.local.TestNG-tests-2(17)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "8cffd611bdd58238",
+        "parentUid" : "8e20981b97dd621f151d6edf732a10ed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620132724997,
+          "stop" : 1620132724999,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      }, {
+        "name" : "Test1",
+        "uid" : "77d3347b177b6302",
+        "parentUid" : "8e20981b97dd621f151d6edf732a10ed",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620132725009,
+          "stop" : 1620132725021,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "8e20981b97dd621f151d6edf732a10ed"
+    }, {
+      "name" : "16132@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "Test1",
+        "uid" : "3b04cb2590e939c7",
+        "parentUid" : "d1abaa1e92af62310d1946e5161373d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620136209953,
+          "stop" : 1620136214032,
+          "duration" : 4079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "d1abaa1e92af62310d1946e5161373d1"
+    }, {
+      "name" : "21336@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "83016eb5fd70b5c5",
+        "parentUid" : "db4e0fb575336beab11fe473b944795f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620194900801,
+          "stop" : 1620194900803,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      }, {
+        "name" : "setUp",
+        "uid" : "4ee3027f95c09ba6",
+        "parentUid" : "db4e0fb575336beab11fe473b944795f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620194900638,
+          "stop" : 1620194900642,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "db4e0fb575336beab11fe473b944795f"
+    }, {
+      "name" : "12576@MacBook-Pro-Jenia-4.local.TestNG-tests-2(17)",
+      "children" : [ {
+        "name" : "Test1",
+        "uid" : "3f9d9378225d14db",
+        "parentUid" : "00f258b3f4d6a882c17079d56e412591",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620132273679,
+          "stop" : 1620132280047,
+          "duration" : 6368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "00f258b3f4d6a882c17079d56e412591"
+    }, {
+      "name" : "12576@MacBook-Pro-Jenia-4.local.TestNG-tests-1(16)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "e9aa25114bf21e45",
+        "parentUid" : "7edbfd6b6d9cc33143aa758af38e1d7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620132290693,
+          "stop" : 1620132290695,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      }, {
+        "name" : "Test2",
+        "uid" : "8e022c6f346a6665",
+        "parentUid" : "7edbfd6b6d9cc33143aa758af38e1d7b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620132290703,
+          "stop" : 1620132290704,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "7edbfd6b6d9cc33143aa758af38e1d7b"
+    }, {
+      "name" : "16132@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "2f2563ec25d923",
+        "parentUid" : "827fba2fc1fc69a4912c6d07b9e67e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620136160329,
+          "stop" : 1620136170886,
+          "duration" : 10557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "827fba2fc1fc69a4912c6d07b9e67e26"
+    }, {
+      "name" : "13464@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "72e1d691bcb2522c",
+        "parentUid" : "81f12769931af5ba246f2cdfa7f902d6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620132937369,
+          "stop" : 1620132937371,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      }, {
+        "name" : "Test1",
+        "uid" : "4968fcc0892d761",
+        "parentUid" : "81f12769931af5ba246f2cdfa7f902d6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620132937378,
+          "stop" : 1620132937380,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "81f12769931af5ba246f2cdfa7f902d6"
+    }, {
+      "name" : "15859@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "Test1",
+        "uid" : "8cc3a50cdcb9ca28",
+        "parentUid" : "bf92acca75be3e360b9869768bc75914",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620135979323,
+          "stop" : 1620135979325,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      }, {
+        "name" : "setUp",
+        "uid" : "8473abbb4f3dd255",
+        "parentUid" : "bf92acca75be3e360b9869768bc75914",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620135979312,
+          "stop" : 1620135979315,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "bf92acca75be3e360b9869768bc75914"
+    }, {
+      "name" : "13101@MacBook-Pro-Jenia-4.local.TestNG-tests-1(16)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "bf78e3bd462f6eb9",
+        "parentUid" : "a1f7e51f096f8c1dd21a1690e697484b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620132707667,
+          "stop" : 1620132716641,
+          "duration" : 8974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "a1f7e51f096f8c1dd21a1690e697484b"
+    }, {
+      "name" : "24253@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "Test1",
+        "uid" : "57e5ffa724767dbc",
+        "parentUid" : "24bbeb392739ca8ec4cdddf3740a5300",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620196544792,
+          "stop" : 1620196550469,
+          "duration" : 5677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "24bbeb392739ca8ec4cdddf3740a5300"
+    }, {
+      "name" : "14522@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "af9c50bc1e3d02c2",
+        "parentUid" : "0cc462854f12648f0c6d53917249cb63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620134005702,
+          "stop" : 1620134015845,
+          "duration" : 10143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "0cc462854f12648f0c6d53917249cb63"
+    }, {
+      "name" : "22927@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "b2a9ed3b8f821537",
+        "parentUid" : "dba98d25d87fb1647aac35b1e01b2113",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620195986480,
+          "stop" : 1620195986482,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      }, {
+        "name" : "Test2",
+        "uid" : "b8f5547f1ebc6b1d",
+        "parentUid" : "dba98d25d87fb1647aac35b1e01b2113",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620195986494,
+          "stop" : 1620195986496,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "dba98d25d87fb1647aac35b1e01b2113"
+    }, {
+      "name" : "14522@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "Test1",
+        "uid" : "b4e14c1a735de51b",
+        "parentUid" : "74a095de86dd945290a60a2b3902cdf3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620134070045,
+          "stop" : 1620134073295,
+          "duration" : 3250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "74a095de86dd945290a60a2b3902cdf3"
+    }, {
+      "name" : "13291@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "Test1",
+        "uid" : "e1cdbce946f736ae",
+        "parentUid" : "14424b90537ae87c2a5575400f591892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620132797876,
+          "stop" : 1620132805627,
+          "duration" : 7751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "14424b90537ae87c2a5575400f591892"
+    }, {
+      "name" : "22927@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "571354a7617b2b87",
+        "parentUid" : "6773868d824d917672dbd3cb6c6faff4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620195740073,
+          "stop" : 1620195740078,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      }, {
+        "name" : "Test1",
+        "uid" : "1aa8f9c8ddc8da9d",
+        "parentUid" : "6773868d824d917672dbd3cb6c6faff4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620195741205,
+          "stop" : 1620195741213,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "6773868d824d917672dbd3cb6c6faff4"
+    }, {
+      "name" : "13464@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "9a9cb4636482c4dd",
+        "parentUid" : "f67ab07cc10fb204ac22e5a83bc89b5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620132904453,
+          "stop" : 1620132914088,
+          "duration" : 9635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "f67ab07cc10fb204ac22e5a83bc89b5f"
+    }, {
+      "name" : "21336@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "Test1",
+        "uid" : "490c0fc5593fdd77",
+        "parentUid" : "69fe0dc34b4e0738e714302313b40a90",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620194900799,
+          "stop" : 1620194900803,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      }, {
+        "name" : "setUp",
+        "uid" : "39739e7c516e2276",
+        "parentUid" : "69fe0dc34b4e0738e714302313b40a90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620194900636,
+          "stop" : 1620194900642,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "69fe0dc34b4e0738e714302313b40a90"
+    }, {
+      "name" : "21692@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "Test1",
+        "uid" : "d2c2af99d94d7cda",
+        "parentUid" : "32c40a78c7cb263d4905ebd4f1976b83",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620195239771,
+          "stop" : 1620195239776,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      }, {
+        "name" : "setUp",
+        "uid" : "217e168ff2db0e0f",
+        "parentUid" : "32c40a78c7cb263d4905ebd4f1976b83",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620195239569,
+          "stop" : 1620195239575,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "32c40a78c7cb263d4905ebd4f1976b83"
+    }, {
+      "name" : "12575@MacBook-Pro-Jenia-4.local.TestNG-tests-2(18)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "57d5c94c1320a700",
+        "parentUid" : "b7f2b102f8f574a580005aa6c2d834e2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620132262439,
+          "stop" : 1620132262447,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      }, {
+        "name" : "Test1",
+        "uid" : "bc5a1851c798dd9a",
+        "parentUid" : "b7f2b102f8f574a580005aa6c2d834e2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620132263183,
+          "stop" : 1620132263214,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "b7f2b102f8f574a580005aa6c2d834e2"
+    }, {
+      "name" : "12575@MacBook-Pro-Jenia-4.local.TestNG-tests-1(17)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "c1f2d9dd13e6d18",
+        "parentUid" : "fcaebaf674bfe7ab27a6036b858a5ae7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620132296521,
+          "stop" : 1620132307996,
+          "duration" : 11475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "fcaebaf674bfe7ab27a6036b858a5ae7"
+    }, {
+      "name" : "13291@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "9cb09d4c50758961",
+        "parentUid" : "e47c51820cf2a1d412750f838d4df406",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620132797180,
+          "stop" : 1620132806359,
+          "duration" : 9179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "e47c51820cf2a1d412750f838d4df406"
+    }, {
+      "name" : "24253@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "7f4d98792dff981f",
+        "parentUid" : "466dcec291a45d0e31c23f3c13ddded8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620196725963,
+          "stop" : 1620196725965,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      }, {
+        "name" : "Test2",
+        "uid" : "2c0f595113fec7bb",
+        "parentUid" : "466dcec291a45d0e31c23f3c13ddded8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620196725975,
+          "stop" : 1620196725977,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "466dcec291a45d0e31c23f3c13ddded8"
+    }, {
+      "name" : "13722@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "543b257af90675b7",
+        "parentUid" : "21fef01d2b2ef7f7caa2be0ff5dcd250",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620133056812,
+          "stop" : 1620133066328,
+          "duration" : 9516
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "21fef01d2b2ef7f7caa2be0ff5dcd250"
+    }, {
+      "name" : "21692@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "315e4f1ee7f4e119",
+        "parentUid" : "04590bc5f78f8b12811832395e979a50",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620195427953,
+          "stop" : 1620195427955,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      }, {
+        "name" : "setUp",
+        "uid" : "4836fceb859ecac",
+        "parentUid" : "04590bc5f78f8b12811832395e979a50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620195427941,
+          "stop" : 1620195427943,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "04590bc5f78f8b12811832395e979a50"
+    }, {
+      "name" : "15859@MacBook-Pro-Jenia-4.local.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "Test2",
+        "uid" : "83ebb6de1859cc18",
+        "parentUid" : "39e4c3c4b11acc4103eef19a209b9857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620135950061,
+          "stop" : 1620135960073,
+          "duration" : 10012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ios", "grid" ]
+      } ],
+      "uid" : "39e4c3c4b11acc4103eef19a209b9857"
+    }, {
+      "name" : "13722@MacBook-Pro-Jenia-4.local.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "Test1",
+        "uid" : "7236211f19738584",
+        "parentUid" : "020285e9f8ad45d213331986261722d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620133107367,
+          "stop" : 1620133111164,
+          "duration" : 3797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "android", "grid" ]
+      } ],
+      "uid" : "020285e9f8ad45d213331986261722d4"
+    } ],
+    "uid" : "d46b98e4a437a623baab103c7053011e"
+  } ]
+}

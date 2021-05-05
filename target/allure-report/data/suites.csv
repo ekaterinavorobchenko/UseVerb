@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 05 09:35:44 MSK 2021","Wed May 05 09:35:50 MSK 2021","5677","All Test Suite","Android","Test.LoginPageAndroid","Test.LoginPageAndroid","Test1","Test1",""
+"broken","Wed May 05 09:22:20 MSK 2021","Wed May 05 09:22:20 MSK 2021","5","All Test Suite","Android","Test.LoginPageAndroid","Test.LoginPageAndroid","setUp","setUp",""
+"skipped","Wed May 05 09:38:45 MSK 2021","Wed May 05 09:38:45 MSK 2021","2","All Test Suite","IOS","Test.LoginPageIOS","Test.LoginPageIOS","Test2","Test2",""
+"broken","Wed May 05 09:38:45 MSK 2021","Wed May 05 09:38:45 MSK 2021","2","All Test Suite","IOS","Test.LoginPageIOS","Test.LoginPageIOS","setUp","setUp",""

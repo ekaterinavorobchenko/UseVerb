@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "setUp",
+    "uid" : "571354a7617b2b87",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1620195740073,
+      "stop" : 1620195740078,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "android", "grid" ]
+  }, {
+    "name" : "Test1",
+    "uid" : "57e5ffa724767dbc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620196544792,
+      "stop" : 1620196550469,
+      "duration" : 5677
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "android", "grid" ]
+  }, {
+    "name" : "setUp",
+    "uid" : "7f4d98792dff981f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1620196725963,
+      "stop" : 1620196725965,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "ios", "grid" ]
+  }, {
+    "name" : "Test2",
+    "uid" : "2c0f595113fec7bb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620196725975,
+      "stop" : 1620196725977,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "ios", "grid" ]
+  } ]
+}

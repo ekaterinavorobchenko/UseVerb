@@ -1,0 +1,81 @@
+{
+  "26a739238c9838488151bac59debad18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f4d98792dff981f",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to start WebDriverAgent session because of xcodebuild failure: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8100\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to start WebDriverAgent session because of xcodebuild failure: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8100\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: IOSDriver",
+      "time" : {
+        "start" : 1620196725963,
+        "stop" : 1620196725965,
+        "duration" : 2
+      }
+    } ]
+  },
+  "d240552f16cd24cc5f614e2c924fbc6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57e5ffa724767dbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620196544792,
+        "stop" : 1620196550469,
+        "duration" : 5677
+      }
+    } ]
+  },
+  "4df848f258f3e655b84e6f16198cb58a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "571354a7617b2b87",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.useverb.useverb.ui.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.useverb.useverb.ui.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620195740073,
+        "stop" : 1620195740078,
+        "duration" : 5
+      }
+    } ]
+  },
+  "eaf0e0a5bddbffb3b252b41d4eddd556" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c0f595113fec7bb",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to start WebDriverAgent session because of xcodebuild failure: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8100\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to start WebDriverAgent session because of xcodebuild failure: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8100\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: IOSDriver",
+      "time" : {
+        "start" : 1620196725975,
+        "stop" : 1620196725977,
+        "duration" : 2
+      }
+    } ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "uid" : "3755467659060e21",
+  "name" : "Test1",
+  "fullName" : "Test.LoginPageAndroid.Test1",
+  "historyId" : "d240552f16cd24cc5f614e2c924fbc6",
+  "time" : {
+    "start" : 1620200691274,
+    "stop" : 1620200695361,
+    "duration" : 4087
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1620200575860,
+      "stop" : 1620200686254,
+      "duration" : 110394
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1620200695382,
+      "stop" : 1620200698789,
+      "duration" : 3407
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Test.LoginPageAndroid"
+  }, {
+    "name" : "testClass",
+    "value" : "Test.LoginPageAndroid"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Android"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test.LoginPageAndroid"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Jenia-4.local"
+  }, {
+    "name" : "thread",
+    "value" : "29219@MacBook-Pro-Jenia-4.local.TestNG-tests-2(17)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "platform",
+    "value" : "android"
+  }, {
+    "name" : "runAs",
+    "value" : "grid"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6d13fca1fed7bb50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620200513666,
+        "stop" : 1620200522168,
+        "duration" : 8502
+      }
+    }, {
+      "uid" : "84d074359caeac2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620199470231,
+        "stop" : 1620199474034,
+        "duration" : 3803
+      }
+    }, {
+      "uid" : "8282b5421a4b47c7",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620198676756,
+        "stop" : 1620198676758,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7fd2791731276bd0",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/ekaterinavolobchenko..., appPackage: com.useverb.useverb, automationName: UIAutomator2, databaseEnabled: false, desired: {app: /Users/ekaterinavolobchenko..., automationName: UIAutomator2, deviceName: emulator-5554, fullReset: false, noReset: true, platformName: android, platformVersion: 11.0}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_arm, deviceName: emulator-5554, deviceScreenDensity: 320, deviceScreenSize: 720x1280, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, viewportRect: {height: 1136, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}\nSession ID: 3122cd33-8a89-4c29-8c91-305ee84637ea\n*** Element info: {Using=id, value=com.useverb.useverb:id/etEmail}",
+      "time" : {
+        "start" : 1620198351961,
+        "stop" : 1620198354650,
+        "duration" : 2689
+      }
+    }, {
+      "uid" : "4bec39b0d061e32",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.useverb.useverb.ui.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.useverb.useverb.ui.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620197773442,
+        "stop" : 1620197773447,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "fca0ff018c11fe6e",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620196868027,
+        "stop" : 1620196868032,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "f981ae94edf0003a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620196544792,
+        "stop" : 1620196550469,
+        "duration" : 5677
+      }
+    }, {
+      "uid" : "5886eadf68d3251",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.useverb.useverb.ui.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.useverb.useverb.ui.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620195741205,
+        "stop" : 1620195741213,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "70e22b34d2068f57",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620195239771,
+        "stop" : 1620195239776,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "af967c0d1c89eb30",
+      "status" : "skipped",
+      "statusDetails" : "Connection refused\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620194900799,
+        "stop" : 1620194900803,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "352b06780040ad6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620136209953,
+        "stop" : 1620136214032,
+        "duration" : 4079
+      }
+    }, {
+      "uid" : "1192b4d2916c7bd5",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620135979323,
+        "stop" : 1620135979325,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d583421da0c13ebb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620134070045,
+        "stop" : 1620134073295,
+        "duration" : 3250
+      }
+    }, {
+      "uid" : "5fcc6ef1032180c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620133107367,
+        "stop" : 1620133111164,
+        "duration" : 3797
+      }
+    }, {
+      "uid" : "12d651bd6da787a",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620132937378,
+        "stop" : 1620132937380,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "857ff3ffe4605806",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620132797876,
+        "stop" : 1620132805627,
+        "duration" : 7751
+      }
+    }, {
+      "uid" : "3a438ecf200f8600",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.useverb.useverb.ui.splash.SplashActivity' or 'com.useverb.useverb.com.useverb.useverb.ui.splash.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620132725009,
+        "stop" : 1620132725021,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "3c8144172215785",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620132273679,
+        "stop" : 1620132280047,
+        "duration" : 6368
+      }
+    }, {
+      "uid" : "309cc393a86f9860",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command '/Users/ekaterinavolobchenko/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.useverb.useverb/com.useverb.useverb.ui.splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.useverb.useverb' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command '/Users/ekaterinavolobchenko/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.useverb.useverb/com.useverb.useverb.ui.splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MacBook-Pro-Jenia-4.local', ip: 'fe80:0:0:0:1422:dca1:42b9:441f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '16'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1620132263183,
+        "stop" : 1620132263214,
+        "duration" : 31
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3755467659060e21.json",
+  "parameterValues" : [ "android", "grid" ]
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "Android",
+      "children" : [ {
+        "name" : "Test.LoginPageAndroid",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "571354a7617b2b87",
+          "parentUid" : "cee8f408233bc303a1b9a7e389926a72",
+          "status" : "broken",
+          "time" : {
+            "start" : 1620195740073,
+            "stop" : 1620195740078,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "android", "grid" ]
+        }, {
+          "name" : "Test1",
+          "uid" : "57e5ffa724767dbc",
+          "parentUid" : "cee8f408233bc303a1b9a7e389926a72",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620196544792,
+            "stop" : 1620196550469,
+            "duration" : 5677
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "android", "grid" ]
+        } ],
+        "uid" : "cee8f408233bc303a1b9a7e389926a72"
+      } ],
+      "uid" : "1409528734843f5168b6b63a0f09889f"
+    }, {
+      "name" : "IOS",
+      "children" : [ {
+        "name" : "Test.LoginPageIOS",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "7f4d98792dff981f",
+          "parentUid" : "4c0d34b3828552f22bd1887c9490ec6c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1620196725963,
+            "stop" : 1620196725965,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "ios", "grid" ]
+        }, {
+          "name" : "Test2",
+          "uid" : "2c0f595113fec7bb",
+          "parentUid" : "4c0d34b3828552f22bd1887c9490ec6c",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1620196725975,
+            "stop" : 1620196725977,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "ios", "grid" ]
+        } ],
+        "uid" : "4c0d34b3828552f22bd1887c9490ec6c"
+      } ],
+      "uid" : "7d980f393500fc8a9c5956f3b4b358b6"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}

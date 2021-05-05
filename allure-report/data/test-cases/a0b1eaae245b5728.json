@@ -1,0 +1,82 @@
+{
+  "uid" : "a0b1eaae245b5728",
+  "name" : "Test2",
+  "fullName" : "Test.LoginPageIOS.Test2",
+  "historyId" : "eaf0e0a5bddbffb3b252b41d4eddd556",
+  "time" : {
+    "start" : 1620198644369,
+    "stop" : 1620198683413,
+    "duration" : 39044
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1620198610646,
+      "stop" : 1620198639242,
+      "duration" : 28596
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Test.LoginPageIOS"
+  }, {
+    "name" : "testClass",
+    "value" : "Test.LoginPageIOS"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "IOS"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test.LoginPageIOS"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Jenia-4.local"
+  }, {
+    "name" : "thread",
+    "value" : "27607@MacBook-Pro-Jenia-4.local.TestNG-tests-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "platform",
+    "value" : "ios"
+  }, {
+    "name" : "runAs",
+    "value" : "grid"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0b1eaae245b5728.json",
+  "parameterValues" : [ "ios", "grid" ]
+}

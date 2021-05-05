@@ -20,9 +20,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-                    <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
+                    <suiteXmlFiles>testng.xml</suiteXmlFiles>
+                    <argLine>-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"</argLine>
+                <systemProperties>
+                    <property>
+                        <name>allure.results.directory</name>
+                        <value>/Users/ekaterinavolobchenko/Documents/UseVerb/allure-results</value>
+                    </property>
+                </systemProperties>
                 </configuration>
                 <dependencies>
                     <dependency>

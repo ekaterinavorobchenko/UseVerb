@@ -1,0 +1,1 @@
+{"uuid":"dcee5396-f59f-4fb2-b659-de4edf3e2fcd","name":"Test.LoginPageIOS","children":["725be76a-c264-4c47-8035-c13463c4c56d"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1620198610646,"stop":1620198639242}],"afters":[],"links":[],"start":1620198610613,"stop":1620198688476}

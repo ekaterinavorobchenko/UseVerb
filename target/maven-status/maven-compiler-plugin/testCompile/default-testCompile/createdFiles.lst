@@ -1,0 +1,6 @@
+Test/SignIn.class
+Base/BaseIOS.class
+Test/LoginPageIOS.class
+Base/PageObjects.class
+Test/LoginPageAndroid.class
+Base/BaseAndroid.class
